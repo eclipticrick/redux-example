@@ -1,5 +1,5 @@
 {
-  "name": "pure-redux",
+  "name": "redux-example",
   "version": "1.0.0",
   "description": "A pure redux example without react.",
   "main": "index.js",
@@ -9,20 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrPeak/pure-redux-example.git"
+    "url": "git+https://github.com/eclipticrick/redux-example.git"
   },
-  "keywords": [
-    "redux",
-    "node"
-  ],
   "author": "mrpeak",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MrPeak/pure-redux-example/issues"
-  },
-  "homepage": "https://github.com/MrPeak/pure-redux-example#readme",
   "dependencies": {
-    "better-console": "^0.2.4",
-    "redux": "^3.5.2"
+    "better-console": "^1.0.1",
+    "redux": "^4.0.1"
   }
 }
