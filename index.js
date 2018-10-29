@@ -55,5 +55,3 @@ store.dispatch({
 });
 
 logState();
-
-

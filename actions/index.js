@@ -5,7 +5,6 @@ const actionTypeMap = require('./actionTypeMap');
 const createDoc = (doc) => {
     return {
         type: actionTypeMap.CRUD_CREATE,
-        desc: 'An action to create new doc',
         doc
     };
 };
@@ -14,7 +13,6 @@ const createDoc = (doc) => {
 const deleteDoc = (index) => {
     return {
         type: actionTypeMap.CRUD_DELETE,
-        desc: 'An action to delete one doc',
         index
     };
 };
@@ -23,10 +21,9 @@ const deleteDoc = (index) => {
 const updateDoc = (index, doc) => {
     return {
         type: actionTypeMap.CRUD_UPDATE,
-        desc: 'An action to update doc',
-        doc,
-        index
+        index,
+        doc
     };
 };
 
-module.exports = {createDoc, deleteDoc, updateDoc};
+module.exports = { createDoc, deleteDoc, updateDoc };

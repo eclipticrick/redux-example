@@ -41,5 +41,3 @@ const crudReducer = (state = initialState, action) => {
 };
 
 module.exports = crudReducer;
-
-

@@ -11,5 +11,3 @@ const otherReducer = (state = 'initial message', action) => {
 };
 
 module.exports = otherReducer;
-
-
